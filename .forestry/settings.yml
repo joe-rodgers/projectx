@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Content
 - type: directory
   path: _posts
   label: Posts
@@ -21,21 +19,6 @@ sections:
   match: "*.md"
 - type: heading
   label: Collections
-- type: directory
-  path: _recipes
-  label: Recipes
-  create: documents
-  match: "*.md"
-- type: directory
-  path: _pets
-  label: Pets
-  create: documents
-  match: "*.md"
-- type: heading
-  label: Jekyll
-- type: document
-  path: _config.yml
-  label: Config
 upload_dir: assets/images
 public_path: "/images"
 front_matter_path: ''
